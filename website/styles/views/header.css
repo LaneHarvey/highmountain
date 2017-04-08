@@ -1,8 +1,9 @@
 nav {
+  display: flex;
   width: 375px;
   height: 64px;
-  padding-top: 20px;
-  padding-left: 20px;
+  /*padding-top: 20px;
+  padding-left: 20px;*/
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
@@ -75,6 +76,11 @@ margin: 0 12px 0 12px;
     /* text-decoration: underline; */
     height: 24px;
 }
+.nav-logo{
+display: flex;
+align-items: center;
+margin-left: 10px;
+}
 
 .menu-icon {
   font-size: 24px;
@@ -82,11 +88,11 @@ margin: 0 12px 0 12px;
   text-decoration: none;
   position: fixed;
   z-index: 1000;
-  right: 20px;
+  right: 30px;
   top: 20px;
   cursor: pointer;
   display: inherit;
-  padding-right: 35px;
+  /*padding-right: 35px;*/
 }
 .hamburger-icon {
   font-size: 24px;
@@ -113,3 +119,9 @@ margin: 0 12px 0 12px;
   font-weight: 300;
   font-size: 14px;
 }
+/*.hidden{
+  display: none;
+}
+.hiddenOnMobile{
+
+}*/

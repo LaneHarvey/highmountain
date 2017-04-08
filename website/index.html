@@ -11,6 +11,9 @@
 
     <link rel="stylesheet" href="styles/fonts/fonts.css">
     <link rel="stylesheet" href="styles/views/header.css">
+    <link rel="stylesheet" href="styles/views/footer.css">
+    <link rel="stylesheet" href="styles/views/home.css">
+
 
 
 
@@ -51,22 +54,20 @@
 
 	  </div>
   </div>
-  <span class="menu-icon"onclick="openNav()">MENU</span>
+  <!-- <span class="menu-icon"onclick="openNav()">MENU</span> -->
   <span class="hamburger-icon"onclick="openNav()">&#9776;</span>
 
-  <div>
+  <div class="nav-logo">
     <a ui-sref="home"><img class="logo" src="img/logo.png"></a>
-    <ul>
-      <li><a ui-sref="about">ABOUT US</a></li>
-      <li><a ui-sref="services">Services</a></li>
-      <li><a ui-sref="contact">Contact</a></li>
-    </ul>
   </div>
-
-
-  <ui-view></ui-view>
-
 </nav>
+
+<ui-view></ui-view>
+
+<footer>
+  <p class="footer-header">CONTACT</p>
+</footer>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
