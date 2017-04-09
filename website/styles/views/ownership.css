@@ -6,9 +6,15 @@
   background-color: #F5F5F5	;
 }
 
+.ownership-title{
+  padding-top: 30px;
+  padding-left: 25px;
+  color: #333333;
+  font-size: 20px;
+}
+
 .ownership-text{
   padding-left: 25px;
-
 }
 .ownership-image{
   width: 335px;
