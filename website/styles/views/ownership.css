@@ -1,0 +1,17 @@
+.ownership-content{
+  width: 360px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  background-color: #F5F5F5	;
+}
+
+.ownership-text{
+  padding-left: 25px;
+
+}
+.ownership-image{
+  width: 335px;
+  padding-top: 30px;
+  padding-left: 25px;
+}
