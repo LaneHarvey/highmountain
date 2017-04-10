@@ -2,7 +2,7 @@ angular.module('highmountain', ['ui.router'])
     .config(function ($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('home',{
-                url:'/',
+                url:'/home',
                 templateUrl: "../views/home.html"
             })
             .state('about',{
