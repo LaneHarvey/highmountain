@@ -1,23 +1,28 @@
 .ownership-content{
-  width: 360px;
+  padding-top: 20px;
+  width: 100%;
   display: flex;
   align-content: center;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
   background-color: #F5F5F5	;
 }
 
-.ownership-title{
-  padding-top: 30px;
-  padding-left: 25px;
-  color: #333333;
-  font-size: 20px;
+
+
+h6.text-p{
+  color: #BA000B;
 }
 
-.ownership-text{
-  padding-left: 25px;
+.text-p{
+  /*display: flex;
+  justify-content: center;*/
+  width: 335px;
+  padding: 0 25px 10px 25px;
+  line-height: 1.5;
 }
 .ownership-image{
   width: 335px;
-  padding-top: 30px;
-  padding-left: 25px;
+  padding-bottom: 20px;
+  background-color: white;
 }

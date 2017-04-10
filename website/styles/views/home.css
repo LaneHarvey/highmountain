@@ -22,6 +22,7 @@
   width: 80%;
   line-height:1.5;
   color: #545554;
+  background-color: white;
 }
 .home-button{
   height: 46px;
@@ -36,7 +37,6 @@
 }
 
 .home-section-content{
-  height: 840px;
 }
 .home-section{
   height: 64px;
@@ -47,5 +47,8 @@
   color: white;
 }
 .home-section-content img{
-  width: 100%
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
