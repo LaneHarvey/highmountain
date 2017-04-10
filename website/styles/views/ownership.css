@@ -5,24 +5,44 @@
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
   background-color: #F5F5F5	;
 }
 
+.ownership-title {
+  width: 89%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  font-size: 20px;
+}
 
+.ownership-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 h6.text-p{
   color: #BA000B;
+  padding: 2% 7.5% 1% 7.5%;
+}
+
+ul.text-p{
+  padding: 2% 7.5% 1% 7.5%;
 }
 
 .text-p{
   /*display: flex;
   justify-content: center;*/
-  width: 335px;
-  padding: 0 25px 10px 25px;
+  width: 89%;
+  padding: .02% .07% .04% .07%;
   line-height: 1.5;
 }
 .ownership-image{
-  width: 335px;
+  width: 89%;
   padding-bottom: 20px;
   background-color: white;
+  align-self: center;
 }
