@@ -1,0 +1,127 @@
+nav {
+  display: flex;
+  width: 375px;
+  height: 64px;
+  /*padding-top: 20px;
+  padding-left: 20px;*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+/* The side navigation menu */
+.sidenav {
+    text-transform: uppercase;
+    height: 100%;
+    /* 100% Full-height */
+    width: 320px;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 10000;
+    /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #333333;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 80px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* The navigation menu links */
+.sidenav a {
+    margin: 40px 0 0px 0;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    width: 227px;
+    text-align: -webkit-center;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus {
+    color: #BA000B;
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: -13px;
+  right: 32px;
+  font-size: 38px;
+  margin-left: 50px;
+  width: initial;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+.sub-nav {
+color: white;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 300;
+cursor: pointer;
+transition: .3s;
+text-decoration: none;
+margin: 0 12px 0 12px;
+}
+.sub-nav:hover {
+    color: #BA000B;
+    /* text-decoration: underline; */
+    height: 24px;
+}
+.nav-logo{
+display: flex;
+align-items: center;
+margin-left: 10px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: #545554;
+  text-decoration: none;
+  position: fixed;
+  z-index: 1000;
+  right: 30px;
+  top: 20px;
+  cursor: pointer;
+  display: inherit;
+  /*padding-right: 35px;*/
+}
+.hamburger-icon {
+  font-size: 24px;
+  color: #545554;
+  text-decoration: none;
+  position: fixed;
+  z-index: 1000;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  display: inherit;
+}
+.sub-nav button {
+  height: 46px;
+  width: 80%;
+  background: #BA000B;
+  color: #FFFFFF;
+  border: none;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -40%;
+  border-radius: 3px;
+  font-weight: 300;
+  font-size: 14px;
+}
+.hidden{
+  display: none;
+}
+.hiddenOnMobile{
+
+}

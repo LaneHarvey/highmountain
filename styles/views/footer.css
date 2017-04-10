@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  bottom:0;
+  width:100%;
+  height: 622px;
+  background-color: #333333;
+  padding: 30px;
+  color: white;
+  text-align: left;
+  font-weight: 300;
+}
+
+.footer-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}

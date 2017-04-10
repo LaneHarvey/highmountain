@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="highmountain">
+<head>
+    <title>Highmountain</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="highmountain">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/base/reset.css">
+
+    <link rel="stylesheet" href="styles/fonts/fonts.css">
+    <link rel="stylesheet" href="styles/views/header.css">
+    <link rel="stylesheet" href="styles/views/footer.css">
+    <link rel="stylesheet" href="styles/views/home.css">
+    <link rel="stylesheet" href="styles/views/about.css">
+    <link rel="stylesheet" href="styles/views/ownership.css">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+<nav>
+  <div id="mySidenav" class="sidenav">
+
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	 <div class="mobile-menu-items">
+
+		<a class="sub-nav"  onclick="closeNav()" ui-sref="home">
+			HOME
+		</a>
+		<a class="sub-nav " onclick="closeNav()" ui-sref="about">
+			ABOUT
+		</a>
+    <a class="sub-nav " onclick="closeNav()" ui-sref="services">
+			SERVICES
+		</a>
+    <a class="sub-nav " onclick="closeNav()" ui-sref="ownership">
+			OWNERSHIP
+		</a>
+    <a class="sub-nav " onclick="closeNav()" ui-sref="contact">
+			CONTACT
+		</a>
+    <a class="sub-nav " onclick="closeNav()" ui-sref="contact">
+			<button>SCHEDULE AN INSPECTION</button>
+		</a>
+
+
+	  </div>
+  </div>
+  <!-- <span class="menu-icon"onclick="openNav()">MENU</span> -->
+  <span class="hamburger-icon"onclick="openNav()">&#9776;</span>
+
+  <div class="nav-logo">
+    <a ui-sref="home"><img class="logo" src="img/logo.png"></a>
+  </div>
+</nav>
+
+<ui-view></ui-view>
+
+<footer>
+  <p class="footer-header">CONTACT</p>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+
+<script src="./js/app.js"></script>
+<script src="./js/header.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>
