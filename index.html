@@ -1,29 +1,56 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="highmountain">
+<html lang="en">
 <head>
+
+  <script>
+      var baseUrl = /local|127/.test(window.location.hostname) ? '' : '/highmountainwebsite';
+      var jsFiles = ["/js/app.js", "/js/header.js"]
+      var cssFiles = ["/styles/css/header.css", "/styles/css/footer.css", "/styles/css/home.css", "/styles/css/about.css", "/styles/css/ownership.css", "/styles/fonts/fonts.css", "/styles/base/reset.css"]
+      document.addEventListener("DOMContentLoaded", function(event) {
+          document.addEventListener('lastJsLoaded', function(e) {
+              angular.bootstrap(document, ['highmountain']);
+          });
+          cssFiles.forEach(function(e) {
+              loadjscssfile(e, "css");
+          })
+          jsFiles.forEach(function(e) {
+              loadjscssfile(e, "js");
+          })
+      });
+      function loadjscssfile(filename, filetype) {
+          if (filetype === "js") {
+              var fileref = document.createElement('script')
+              fileref.setAttribute("type", "text/javascript")
+              fileref.setAttribute("src", baseUrl + filename)
+              document.getElementById("custom-inject").appendChild(fileref);
+          } else if (filetype === "css")
+              var fileref = document.createElement("link")
+              fileref.setAttribute("rel", "stylesheet")
+              fileref.setAttribute("type", "text/css")
+              fileref.setAttribute("href", baseUrl + filename)
+              document.getElementsByTagName("head")[0].appendChild(fileref);
+          }
+
+  </script>
+
+
+
+
+
     <title>Highmountain</title>
 
     <meta charset="UTF-8">
     <meta name="description" content="highmountain">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles/base/reset.css">
+    <!-- <link rel="stylesheet" href="styles/base/reset.css">
     <link rel="stylesheet" href="styles/fonts/fonts.css">
 
     <link rel="stylesheet" href="styles/css/header.css">
     <link rel="stylesheet" href="styles/css/footer.css">
     <link rel="stylesheet" href="styles/css/home.css">
     <link rel="stylesheet" href="styles/css/about.css">
-    <link rel="stylesheet" href="styles/css/ownership.css">
-
-
-
-
-
-
-
-
-
+    <link rel="stylesheet" href="styles/css/ownership.css"> -->
 
 </head>
 
@@ -32,7 +59,7 @@
   <div id="mySidenav" class="sidenav">
 
 
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a  class="closebtn" onclick="closeNav()">&times;</a>
 	 <div class="mobile-menu-items">
 
 		<a class="sub-nav"  onclick="closeNav()" ui-sref="home">
@@ -72,14 +99,14 @@
 </footer>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
-
+<!--
 <script src="./js/app.js"></script>
-<script src="./js/header.js"></script>
+<script src="./js/header.js"></script> -->
 
 
-
+<span id="custom-inject"></span>
 
 
 
