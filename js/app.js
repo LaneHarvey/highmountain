@@ -3,25 +3,35 @@ angular.module('highmountain', ['ui.router'])
         $stateProvider
             .state('home',{
                 url:'/',
-                templateUrl: "../views/home.html"
+                templateUrl: "js/views/home.html"
             })
             .state('about',{
                 url:'/about',
-                templateUrl: "../views/about.html"
+                templateUrl: "js/views/about.html"
             })
             .state('services',{
                 url:'/services',
-                templateUrl: "../views/services.html"
+                templateUrl: "js/views/services.html"
             })
             .state('ownership',{
                 url:'/ownership',
-                templateUrl: "../views/ownership.html",
+                templateUrl: "js/views/ownership.html",
             })
             .state('contact',{
                 url:'/contact',
-                templateUrl: "../views/contact.html",
+                templateUrl: "js/views/contact.html",
             });
-
         $urlRouterProvider
             .otherwise('/');
     });
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "320px";
+    document.getElementById("mySidenav").style.height = "667px";
+};
+
+    /* Set the width of the side navigation to 0 */
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+};
