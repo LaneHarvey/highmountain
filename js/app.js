@@ -23,5 +23,5 @@ angular.module('highmountain', ['ui.router'])
             });
 
         $urlRouterProvider
-            .otherwise('/');
+            .otherwise('/home');
     });
