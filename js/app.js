@@ -3,23 +3,23 @@ angular.module('highmountain', ['ui.router'])
         $stateProvider
             .state('home',{
                 url:'/',
-                templateUrl: "highmountainwebsite/views/home.html"
+                templateUrl: "../views/home.html"
             })
             .state('about',{
                 url:'/about',
-                templateUrl: "highmountainwebsite/views/about.html"
+                templateUrl: "../views/about.html"
             })
             .state('services',{
                 url:'/services',
-                templateUrl: "highmountainwebsite/views/services.html"
+                templateUrl: "../views/services.html"
             })
             .state('ownership',{
                 url:'/ownership',
-                templateUrl: "highmountainwebsite/views/ownership.html",
+                templateUrl: "../views/ownership.html",
             })
             .state('contact',{
                 url:'/contact',
-                templateUrl: "highmountainwebsite/views/contact.html",
+                templateUrl: "../views/contact.html",
             });
 
         $urlRouterProvider
