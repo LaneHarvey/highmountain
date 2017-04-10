@@ -21,8 +21,8 @@ angular.module('highmountain', ['ui.router'])
                 url:'/contact',
                 templateUrl: "js/views/contact.html",
             });
-        $urlRouterProvider
-            .otherwise('/');
+        // $urlRouterProvider
+        //     .otherwise('/');
     });
 
 function openNav() {
