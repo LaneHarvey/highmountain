@@ -3,8 +3,7 @@ angular.module('highmountain', ['ui.router'])
         $stateProvider
             .state('home',{
                 url:'/',
-                templateUrl: "views/home.html",
-                template: 'templates/first.html'
+                templateUrl: "views/home.html"
             })
             .state('about',{
                 url:'/about',
