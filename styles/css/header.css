@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+
+
+
+html, body{
+  margin:0px;
+  padding: 0px;
+  font-family: 'Quattrocento Sans', sans-serif
+}
 nav {
   display: flex;
   width: 375px;
@@ -12,7 +21,7 @@ nav {
     text-transform: uppercase;
     height: 100%;
     /* 100% Full-height */
-    width: 320px;
+    width: 90vw;
     /* 0 width - change this with JavaScript */
     position: fixed;
     /* Stay in place */
@@ -76,10 +85,17 @@ margin: 0 12px 0 12px;
     /* text-decoration: underline; */
     height: 24px;
 }
+
+.logo {
+  padding-top: 20px;
+  padding-left: 20px
+}
 .nav-logo{
-display: flex;
-align-items: center;
-margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  right: 29px;
+  top: 9px;
 }
 
 .menu-icon {

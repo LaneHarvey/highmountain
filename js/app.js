@@ -4,7 +4,7 @@ angular.module('app',['ui.router'])
 //this is what are going to call the home state
 $stateProvider.state('home', {
   templateUrl: 'js/templates/home.html',
-  url: '/home'
+  url: '/'
 })
 
 
@@ -29,7 +29,9 @@ $stateProvider.state('home', {
 });
 //lcd soundsystem
 function openNav() {
-document.getElementById("mySidenav").style.width = "250px";
+document.getElementById("mySidenav").style.width = "90vw";
+document.getElementById("mySidenav").style.height = "100vh";
+
 }
 /* Set the width of the side navigation to 0 */
 function closeNav() {
