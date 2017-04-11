@@ -1,14 +1,13 @@
 angular.module('app',['ui.router'])
 .config(function($stateProvider, $urlRouterProvider){
 
+$urlRouterProvider.otherwise('/home');
+
 //this is what are going to call the home state
 $stateProvider.state('home', {
   templateUrl: 'js/templates/home.html',
-  url: '/'
+  url: '/home'
 })
-
-
-
 .state('about' ,{
   templateUrl: 'js/templates/about.html',
   url: '/about'
