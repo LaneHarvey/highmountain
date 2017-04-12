@@ -80,7 +80,7 @@ margin: 0 12px 0 12px;
   /*border-bottom: solid #C0212A .5px;
   height: 24px;*/
 }
-.sub-nav button {
+button.sub-nav {
   height: 46px;
   width: 80%;
   background: #BA000B;
