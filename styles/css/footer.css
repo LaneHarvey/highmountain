@@ -17,3 +17,11 @@ footer {
 .footer-contact {
   line-height: 1.3;
 }
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-bottom {
+  font-size: 98%;
+}
