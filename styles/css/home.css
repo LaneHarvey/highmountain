@@ -7,7 +7,7 @@
 
 }
 .home-first{
-  width: 322px;
+  width: 77%;
   height: 260px;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
 
 }
 .text-red{
-  color: #BA000B;
+  color: #C90109;
 }
 .text-p{
   width: 80%;
@@ -25,15 +25,15 @@
   background-color: white;
 }
 .home-button{
-  height: 46px;
-  width: 80%;
-  background: #BA000B;
+  height: 14%;
+  width: 63%;
+  background: #C90109;
   color: #FFFFFF;
   border: none;
   left: 50%;
   border-radius: 3px;
-  font-weight: 300;
-  font-size: 14px;
+  font-weight: 100;
+  font-size: 12px;
 }
 
 .home-section-content{
@@ -51,4 +51,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.home-section h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
 }

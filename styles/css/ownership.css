@@ -1,5 +1,5 @@
 .ownership-content{
-  padding-top: 20px;
+  padding-top: 30%;
   width: 100%;
   display: flex;
   align-content: center;
@@ -14,7 +14,8 @@
   display: flex;
   justify-content: center;
   background-color: white;
-  font-size: 40px;
+  font-size: 20px;
+  padding-bottom: 3%;
 }
 
 .ownership-text{
@@ -37,13 +38,10 @@ ul.text-p{
   /*display: flex;
   justify-content: center;*/
   width: 89%;
-  padding: .02% .07% .04% .07%;
   line-height: 1.5;
 }
 .ownership-image{
   width: 89%;
-  max-width: 420px;
-  min-width: 200px;
   padding-bottom: 20px;
   background-color: white;
   align-self: center;
