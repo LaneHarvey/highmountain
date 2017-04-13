@@ -39,11 +39,11 @@
 .home-section-content{
 }
 .home-section{
-  height: 64px;
   background-color: #333333;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   color: white;
 }
 .home-section-content img{
@@ -55,5 +55,22 @@
 
 .home-section h2{
   font-family: 'Roboto', sans-serif;
+  padding: 20px;
   font-size: 25px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .home-section-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .home-section {
+    width: 33.3%;
+    flex-direction: column;
+    height: auto;
+  }
+  .home-section h2 {
+    padding: 20px;
+  }
 }
