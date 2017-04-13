@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  padding-top: 6%;
+  padding-bottom: 6%;
 }
 .home-first{
   width: 77%;

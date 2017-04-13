@@ -25,3 +25,7 @@ footer {
 .footer-bottom {
   font-size: 98%;
 }
+
+footer img {
+    width: 118px;
+}
