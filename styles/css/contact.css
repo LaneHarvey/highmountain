@@ -1,0 +1,41 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  width: inherit;
+  justify-content: space-around;
+}
+
+.ownership-content{
+  padding-top: 8%;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #F5F5F5	;
+}
+.contact {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    width: 89%;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.input {
+  border-color: #F5F5F5;
+  height: 25px;
+  font-size: 20px
+}
+
+.label {
+    font-size: 20px;
+    align-items: center;
+    /*padding-top: 10%;*/
+    /*padding-bottom: 10%;*/
+}
