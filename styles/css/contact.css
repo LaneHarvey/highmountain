@@ -1,3 +1,17 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: slategray;
+
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+}
+
 .form{
   display: flex;
   flex-direction: column;
@@ -6,21 +20,10 @@
   justify-content: space-around;
 }
 
-.ownership-content{
-  padding-top: 8%;
-  width: 100%;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  background-color: #F5F5F5	;
-}
 .contact {
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-self: center;
     width: 89%;
     justify-content: space-around;
@@ -31,6 +34,13 @@
   border-color: #F5F5F5;
   height: 25px;
   font-size: 20px
+}
+.txt-area {
+  border: 2px solid #F5F5F5;
+  /*border-color: #F5F5F5;*/
+
+  font-size: 20px;
+  font-family: 'Quattrocento' , sans-serif;
 }
 
 .label {

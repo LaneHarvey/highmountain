@@ -120,6 +120,7 @@ button.sub-nav {
   background-color: white;
   width: 100%;
   position: fixed;
+  padding-bottom: 6%;
 }
 
 .logo {
