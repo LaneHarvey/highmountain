@@ -13,10 +13,11 @@
 .ownership-title {
   width: 89%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: white;
   font-size: 20px;
   padding-bottom: 3%;
+  padding: 2% 7.5% 1% 7.5%;
 }
 
 .ownership-text{
@@ -47,4 +48,29 @@ ul.text-p{
   padding-bottom: 20px;
   background-color: white;
   align-self: center;
+}
+
+.image-ipad {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .ownership-content {
+    max-height: 2418px;
+    /*width: 1024px;*/
+    overflow: hidden;
+  }
+  .ownership-image {
+    display: none;
+  }
+  .image-ipad {
+    display: flex;
+    background-color: white;
+    width: 89%;
+    align-self: center;
+    padding-bottom: 20px;
+  }
+  .ownership-title {
+    font-size: 28px;
+  }
 }
