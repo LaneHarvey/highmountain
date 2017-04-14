@@ -45,8 +45,19 @@
     <!-- Use any element to open the sidenav -->
     <span class="hamburger-icon" onclick="openNav()">&#9776;</span>
 
-    <div class="nav-logo">
-      <a><img class="logo" src="img/logo.png" ui-sref="home"></a>
+    <div class="nav-container">
+      <div class="home-logo">
+        <img class="logo" src="img/logo.png" ui-sref="home">
+      </div>
+        <div class="header-links">
+          <ul>
+            <li ui-sref="home">Home</li>
+            <li ui-sref="about">About</li>
+            <li ui-sref="services">Services</li>
+            <li ui-sref="ownership">Ownership</li>
+            <li ui-sref="contact">Contact</li>
+          </ul>
+        </div>
     </div>
 
     <ui-view>

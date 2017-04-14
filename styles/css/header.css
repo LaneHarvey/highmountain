@@ -105,6 +105,11 @@ button.sub-nav {
   cursor: pointer;
   display: inherit;
 }
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 .nav-logo{
   display: flex;
@@ -112,15 +117,18 @@ button.sub-nav {
   z-index: 1000;
   right: 29px;
   top: 9px;
-  width: 100%;
+  /*width: 100%;*/
   height: 67px;
 }
 
 .nav-logo a {
   background-color: white;
+  color: #545554;
   width: 100%;
   position: fixed;
-  padding-bottom: 6%;
+  /*padding-bottom: 3%;*/
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -128,6 +136,36 @@ button.sub-nav {
   padding-left: 20px
 }
 
+.header-links{
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .logo {
+    width: 220px;
+    padding-bottom: 10px;
+  }
+  .hamburger-icon {
+    display: none;
+  }
+  .header-links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    color: #545554;
+  }
+  .header-links ul {
+    display: inline-flex;
+    padding: 20px;
+    width: 72%;
+    justify-content: space-around;
+  }
+  .header-links li {
+    font-size: 22px;
+  }
+}
 /*
 .hidden{
   display: none;

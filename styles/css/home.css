@@ -18,6 +18,9 @@
 .text-red{
   color: #C90109;
 }
+.home-img {
+  display: none;
+}
 .text-p{
   width: 80%;
   line-height:1.5;
@@ -64,6 +67,21 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+  .home-text-content {
+    display: flex;
+    flex-direction: row;
+    padding-left: 4%;
+    padding-top: inherit;
+    padding-bottom: inherit;
+
+  }
+  .text-red {
+    font-size: 30px;
+  }
+  .home-img {
+    display: flex;
+    width: 52%;
   }
   .home-section {
     width: 33.3%;
