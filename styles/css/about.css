@@ -7,3 +7,61 @@
   width: 89%;
   margin-bottom: 20px;
 }
+.desktop {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-box h3 {
+  display: none;
+}
+.contact-box p {
+  display: none;
+}
+
+@media only screen and (min-width: 1440px){
+  section.ownership-content {
+    width: inherit;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 5%;
+  }
+  .desktop {
+    width: 50%;
+    display: initial;
+  }
+  h5 {
+    background-color: #F5F5F5
+  }
+  div.ownership-text {
+    display: 100%;
+  }
+  .contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 580px;
+    height: 396px;
+    padding: 30px;
+    color: darkgrey;
+    background-color: #333333;
+    border-top: 2px solid #C90109;
+  }
+  .contact-box p {
+    display: flex;
+  }
+  .contact-box h3{
+    display: flex;
+    font-size: 26px;
+    color: #FFFFFF;
+  }
+  .home-first p {
+    width: 59%;
+  }
+  div.ownership-text {
+    display: inherit;
+  }
+  .nav-container {
+        border-bottom: 4px solid #F5F5F5;
+  }
+}
