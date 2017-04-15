@@ -25,6 +25,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding-left: 5%;
+    padding-right: 5%;
   }
   .desktop {
     width: 50%;
@@ -47,6 +48,13 @@
     background-color: #333333;
     border-top: 2px solid #C90109;
   }
+  .contact {
+    height: 600px;
+  }
+  button.sub-nav {
+    position: inherit;
+    margin-left: 0;
+  }
   .contact-box p {
     display: flex;
   }
@@ -62,6 +70,9 @@
     display: inherit;
   }
   .nav-container {
-        border-bottom: 4px solid #F5F5F5;
+    border-bottom: 4px solid #F5F5F5;
+  }
+  .form {
+    padding-bottom: 30px
   }
 }

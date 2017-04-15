@@ -27,7 +27,7 @@
     align-self: center;
     width: 89%;
     justify-content: space-around;
-    height: 400px;
+    height: 600px;
 }
 
 .input {
@@ -48,4 +48,17 @@
     align-items: center;
     /*padding-top: 10%;*/
     /*padding-bottom: 10%;*/
+}
+.contact-button {
+  height: 46px;
+  width: 80%;
+  background: #BA000B;
+  color: #FFFFFF;
+  border: none;
+  position: inherit;
+  bottom: 30px;
+  left: 50%;
+  border-radius: 3px;
+  font-weight: 300;
+  font-size: 14px;
 }
