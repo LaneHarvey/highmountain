@@ -1,0 +1,20 @@
+<!-- <?PHP
+
+$email_from = ‘HighMountain’;
+$email_to = 'levi@titan.com’;
+$subject = ‘High Mtn Contact form’;
+
+$message = 'Model: ' . $_POST[‘firstName’] . "\n"
+. 'Serial Number: ' . $_POST[‘lastName’] . "\n"
+. 'Work Order: ' . $_POST[‘email’] . "\n"
+. 'Date: ' . $_POST[‘number’] . "\n"
+. 'Company Name: ' . $_POST[‘whatever the names of the inputs are’] . "\n"
+
+;
+
+//Added wordwrap so that the message does not go on and on. Wraps at 120 characters.
+$message = wordwrap($message, 120);
+$headers = "From: " . $email_from . "\r\n" . "Reply-to: " . $email_from . "";
+mail($email_to, $subject, $message, $headers);
+header("Location: yourHTLMpage.html");
+?> -->
