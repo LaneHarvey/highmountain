@@ -142,7 +142,7 @@ button.sub-nav {
 
 @media only screen and (min-width: 1024px) {
   .logo {
-    width: 220px;
+    /*width: 220px;*/
     padding-bottom: 10px;
   }
   .hamburger-icon {
