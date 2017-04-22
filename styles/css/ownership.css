@@ -76,7 +76,7 @@ ul.text-p{
   .image-ipad {
     display: flex;
     background-color: white;
-    width: 89%;
+     width: 89%;
     align-self: center;
     padding-bottom: 21px;
   }
