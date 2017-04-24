@@ -9,24 +9,32 @@
     <img src="img/contact-ipad.jpg" class="image-ipad"  > -->
     <div class="contact">
       <!-- <p class="text-p"> -->
-        <form action="email.php" class="form">
+          <form id="contactform" action="//formspree.io/mikeytown19@gmail.com" method="POST" class='form'>
           <label for="name" class="label">Your Name</label>
-          <!-- <input type="text" name="name" class="input"> -->
-          <input rows="1" cols="50" name="name" class="txt-area" placeholder=""></input>
+          <input class="txt-area"type="text" name="name">
 
           <label for="email" class="label">Email Address</label>
-          <!-- <input type="text" name="email" class="input"> -->
-          <input rows="1" cols="50" name="email" class="txt-area" placeholder=""></input>
+          <input type="email" name="_replyto" class='txt-area'>
 
           <label for="phone" class="label">Phone Number</label>
-          <!-- <input type="text" name="phone" class="input"> -->
-          <input rows="1" cols="50" name="phone" class="txt-area" placeholder=""></input>
+          <input class="txt-area"type="number" name="name"class="txt-area">
 
           <label for="message" class="label">Message</label>
+          <textarea name="message" class='txt-area'></textarea>
+
           <!-- <input type="text-area" name="message" class="input" style="height: 75px;"> -->
-          <input rows="4" cols="50" name="message" class="txt-area" placeholder="..."></input>
-          <button type="submit" name="button" class="contact-button">Submit</button>
+
+
+
+
+
+          <input type="submit" value="Send" class="contact-button">
+
+            <input type="hidden" name="_subject" value="Website contact" />
+            <input type="text" name="_gotcha" style="display:none" />
         </form>
+
+
       <!-- </p> -->
     </div>
   </div>
