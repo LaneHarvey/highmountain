@@ -159,6 +159,20 @@ button.sub-nav {
   margin-right: 50px;
 }
 
+.header-button {
+  margin-right: 30px;
+  margin-left: -51px;
+  width: 180px;
+  font-weight: 100;
+  font-size: medium;
+  height: 36px;
+  background: #C90109;
+  color: #FFFFFF;
+  border: none;
+  left: 50%;
+  border-radius: 3px;
+}
+
 @media only screen and (min-width: 1024px) {
   .logo {
     /*width: 220px;*/
