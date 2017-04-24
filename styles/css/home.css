@@ -1,10 +1,94 @@
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.flex1 {
+    flex: 1
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex-direction-columnn {
+    flex-direction: column;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-space-around {
+    justify-content: space-around;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.fw100 {
+    font-weight: 100;
+}
+
+.fw200 {
+    font-weight: 200;
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.fw500 {
+    font-weight: 500;
+}
+
+.fw600 {
+    font-weight: 600;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.fw800 {
+    font-weight: 800;
+}
+
+.fw900 {
+    font-weight: 900;
+}
 .home-text-content{
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 6%;
   padding-bottom: 6%;
+  background-color: #fff;
 }
 .home-first{
   width: 77%;
@@ -22,21 +106,23 @@
   display: none;
 }
 .text-p{
-  width: 80%;
-  line-height:1.5;
+  line-height: 1.5;
   color: #545554;
   background-color: white;
+  font-weight: 200;
+  letter-spacing: 1px;
+  max-width: 500px;
 }
 .home-button{
-  height: 14%;
-  width: 63%;
+  height: 36px;
+  width: 209px;
   background: #C90109;
   color: #FFFFFF;
   border: none;
   left: 50%;
   border-radius: 3px;
-  font-weight: 100;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 13px;
 }
 
 .home-section-content{
@@ -57,9 +143,20 @@
 }
 
 .home-section h2{
-  font-family: 'Roboto', sans-serif;
-  padding: 20px;
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+
+
+.site-width{
+  max-width: 1600px;
+  margin: auto;
+}
+.max-width{
+  max-width: 1200px;
+  margin: auto;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -81,12 +178,15 @@
   }
   .home-img {
     display: flex;
-    width: 52%;
+    /* width: 52%; */
+    height: 450px;
   }
   .home-section {
     width: 33.3%;
     flex-direction: column;
     height: auto;
+        border-bottom: none;
+        border: solid white thin;
   }
   .home-section h2 {
     padding: 20px;

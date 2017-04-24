@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
-
-
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 html, body{
   margin:0px;
   padding: 0px;
-  font-family: 'Quattrocento Sans', sans-serif
+  font-family: 'Quattrocento Sans', sans-serif;
+  background-color:  #F5F5F5;
 }
 /* The side navigation menu */
 .sidenav {
@@ -37,14 +37,15 @@ html, body{
 }
 /* The navigation menu links */
 .sidenav a {
-    margin: 20px 0 0px 0;
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    display: block;
-    transition: 0.3s;
-    width: 227px;
-    text-align: -webkit-center;
+  margin: 20px 0 0px 0;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  text-align: -webkit-center;
+  font-weight: 100;
+  line-height: 2;
 }
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus {
@@ -81,18 +82,20 @@ margin: 0 12px 0 12px;
   height: 24px;*/
 }
 button.sub-nav {
-  height: 46px;
-  width: 80%;
-  background: #BA000B;
-  color: #FFFFFF;
-  border: none;
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  margin-left: -40%;
-  border-radius: 3px;
-  font-weight: 300;
-  font-size: 14px;
+    height: 35px;
+    /* width: 80%; */
+    background: #BA000B;
+    color: #FFFFFF;
+    border: none;
+    /* position: absolute; */
+    /* bottom: 30px; */
+    /* left: 50%; */
+    /* margin-left: -40%; */
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: 14px;
+        margin-top: 75px;
+    width: 200px;
 }
 .hamburger-icon {
   font-size: 24px;
@@ -109,6 +112,7 @@ button.sub-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-color: #fff;
 }
 
 .nav-logo{
@@ -120,6 +124,17 @@ button.sub-nav {
   /*width: 100%;*/
   height: 67px;
 }
+
+.nav-header-logo{
+  background: url(../../img/logo.png);
+  height: 90px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 60px;
+  margin-top: 10px;
+  }
+
 
 .nav-logo a {
   background-color: white;
@@ -138,6 +153,10 @@ button.sub-nav {
 
 .header-links{
   display: none;
+}
+.header-links ul{
+  max-width: 600px;
+  margin-right: 50px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -163,7 +182,9 @@ button.sub-nav {
     justify-content: space-around;
   }
   .header-links li {
-    font-size: 22px;
+    font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 300;
   }
 }
 /*
