@@ -48,9 +48,18 @@ ul.text-p{
   padding: 2% 7.5% 1% 7.5%;
 }
 .ownership-image{
-  width: 89%;
+
   background-color: white;
   align-self: center;
+  /* height: 318px; */
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  /* max-height: 318px; */
+  /* min-height: 275px; */
+  width: 89%;
+  min-width: 247px;
+  max-width: 445px;
 }
 
 .image-ipad {
@@ -71,7 +80,7 @@ ul.text-p{
     padding-top: 8%;
   }
   .ownership-image {
-    display: none;
+    /*display: none;*/
   }
   .image-ipad {
     display: flex;

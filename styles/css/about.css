@@ -1,8 +1,9 @@
 .about {
   background-color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+
+  width: 89%;
+  min-width: 247px;
+  max-width: 445px;
   align-self: center;
   width: 89%;
   margin-bottom: 20px;
@@ -70,7 +71,7 @@
     display: inherit;
   }
   .nav-container {
-    border-bottom: 4px solid #F5F5F5;
+
   }
   .form {
     padding-bottom: 30px
