@@ -37,14 +37,15 @@ html, body{
 }
 /* The navigation menu links */
 .sidenav a {
-    margin: 20px 0 0px 0;
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    display: block;
-    transition: 0.3s;
-    width: 227px;
-    text-align: -webkit-center;
+  margin: 20px 0 0px 0;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  text-align: -webkit-center;
+  font-weight: 100;
+  line-height: 2;
 }
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus {
@@ -81,18 +82,20 @@ margin: 0 12px 0 12px;
   height: 24px;*/
 }
 button.sub-nav {
-  height: 46px;
-  width: 80%;
-  background: #BA000B;
-  color: #FFFFFF;
-  border: none;
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  margin-left: -40%;
-  border-radius: 3px;
-  font-weight: 300;
-  font-size: 14px;
+    height: 35px;
+    /* width: 80%; */
+    background: #BA000B;
+    color: #FFFFFF;
+    border: none;
+    /* position: absolute; */
+    /* bottom: 30px; */
+    /* left: 50%; */
+    /* margin-left: -40%; */
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: 14px;
+        margin-top: 75px;
+    width: 200px;
 }
 .hamburger-icon {
   font-size: 24px;
