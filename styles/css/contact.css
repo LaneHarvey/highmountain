@@ -13,13 +13,13 @@
 }
 
 
-#kory-image{
-  background: url(../../img/kory/kory.JPG);
-      height: 336px;
-      width: 446px;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position-y: -60px;
+#kory-image {
+    background: url(../../img/kory/kory.JPG);
+    height: 400px;
+    width: 446px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -71px;
 }
 
 
