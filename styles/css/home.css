@@ -140,6 +140,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 86%;
 }
 
 .home-section h2{
@@ -160,6 +161,15 @@
   margin: auto;
 }
 
+
+
+#family-pic{
+  background: url(./../../img/family/family-pic.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: 448px;
+  background-position-y: -150px;
+}
 @media only screen and (min-width: 1024px) {
   .home-section-content {
     display: flex;
