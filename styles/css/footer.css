@@ -59,15 +59,21 @@ footer img {
     /*width: 118px;*/
     /*height: 67px;*/
 }
-
+.footer-links ul {
+    /* background-color: brown; */
+    width: 355px;
+    display: flex;
+    justify-content: space-between;
+}
 .footer-logo{
   background: url(../../img/footer-logo.png);
-  height: 90px;
-  width: 200px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-left: 60px;
-  margin-top: 10px;
+height: 90px;
+width: 200px;
+background-repeat: no-repeat;
+background-size: contain;
+margin-left: 25px;
+margin-top: 14px;
+margin-right: 15px
   }
   .footer-width footer  {
     max-width: 1600px;
