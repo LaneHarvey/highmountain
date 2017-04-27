@@ -16,7 +16,10 @@
 #kory-image {
     background: url(../../img/kory/kory.JPG);
     height: 401px;
-    width: 446px;
+    max-width: 446px;
+    min-width: 330px;
+    width:89%;
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -71px;
