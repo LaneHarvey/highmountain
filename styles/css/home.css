@@ -130,11 +130,13 @@
 .home-section{
   background-color: #333333;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
-  color: white;
+  /* color: white; */
   cursor: pointer;
+
+  height: 336px !important;
 }
 .home-section-content img{
   width: 100%;
