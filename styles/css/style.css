@@ -1,0 +1,20 @@
+
+@media only screen and (max-width:600px) {
+  .home-section{
+    height: 100% !important;
+  }
+  .home-section-content .home-section img {
+     height: 89%;
+  }
+}
+
+@media only screen and (max-width:1000px) {
+
+.home-section{
+  height: 500px;
+}
+.home-section img {
+   height: 100%;
+}
+
+}

@@ -61,9 +61,11 @@ footer img {
 }
 .footer-links ul {
     /* background-color: brown; */
-    width: 355px;
+    min-width: 200px;
+    max-width: 355px;
     display: flex;
     justify-content: space-between;
+    width:100%;
 }
 .footer-logo{
   background: url(../../img/footer-logo.png);
