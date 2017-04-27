@@ -10,6 +10,22 @@ footer {
   font-weight: 100;
 }
 
+.footer-content li{
+  font-family: 'Quattrocento',sans-serif;
+      /* box-shadow: 0 0 black; */
+      font-weight: 100;
+      font-size: 13px;
+      letter-spacing: 2px;
+      color: rgba(255, 255, 255, 0.7);
+
+}
+.footer-content h1{
+  font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
 .footer-header {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
@@ -43,6 +59,25 @@ footer img {
     /*width: 118px;*/
     /*height: 67px;*/
 }
+
+.footer-logo{
+  background: url(../../img/footer-logo.png);
+  height: 90px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 60px;
+  margin-top: 10px;
+  }
+  .footer-width footer  {
+    max-width: 1600px;
+    margin: auto;
+
+  }
+  .footer-width{
+      background-color: #333333;
+  }
+
 
 @media only screen and (min-width: 1024px) {
   .footer-content {

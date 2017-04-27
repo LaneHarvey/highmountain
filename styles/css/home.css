@@ -200,7 +200,7 @@
     flex-direction: column;
     height: auto;
         border-bottom: none;
-        border: solid white thin;
+        /*border: solid white thin;*/
   }
   .home-section h2 {
     padding: 20px;
