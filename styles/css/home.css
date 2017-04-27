@@ -151,7 +151,9 @@
       padding:9px;
 }
 
-
+.pdf-logo{
+  height: 65px;
+}
 
 .site-width{
   max-width: 1600px;
