@@ -54,10 +54,11 @@ html, body{
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
-  top: -13px;
-  right: 32px;
+  top: -29px;
+  right: 26px;
   font-size: 38px;
   margin-left: 50px;
+
   width: initial;
 }
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
