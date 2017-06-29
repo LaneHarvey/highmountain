@@ -80,6 +80,7 @@ margin-right: 15px
   .footer-width footer  {
     max-width: 1600px;
     margin: auto;
+        margin-top: 15px;
 
   }
   .footer-width{
