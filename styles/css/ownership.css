@@ -4,7 +4,6 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  flex-wrap: wrap;
   flex-direction: column;
   background-color: #F5F5F5	;
   padding-bottom: 11%;
@@ -76,7 +75,7 @@ ul.text-p{
   .ownership-content {
     max-height: 2418px;
     /*width: 1024px;*/
-    overflow: hidden;
+
     padding-top: 8%;
   }
   .ownership-image {
