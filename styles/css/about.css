@@ -24,7 +24,6 @@
   section.ownership-content {
     width: inherit;
     flex-direction: row;
-    justify-content: space-around;
 
   }
   .desktop {
