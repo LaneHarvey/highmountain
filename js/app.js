@@ -27,12 +27,23 @@ $stateProvider.state('home', {
 //things as they are at this given time.
 });
 //lcd soundsystem
-function openNav() {
-document.getElementById("mySidenav").style.width = "250px";
-// document.getElementById("mySidenav").style.height = "";
 
+function openNav() {
+  document.querySelector('.sidenav').style.width = '250px';
+// document.getElementById("sidenav").style.height = "";
 }
 /* Set the width of the side navigation to 0 */
 function closeNav() {
-document.getElementById("mySidenav").style.width = "0";
+  document.querySelector('.sidenav').style.width = '0';
 }
+
+const openNavv = document.querySelector('.open-nav');
+const closeNavv = document.querySelector('.close-nav');
+
+openNavv.addEventListener('click', () => {
+  openNav();
+});
+
+closeNavv.addEventListener('click', () => {
+  closeNav();
+});
