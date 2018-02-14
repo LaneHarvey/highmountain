@@ -3168,6 +3168,9 @@ h1 {
   margin-top: 25px;
   margin-bottom: 10px; }
 
+  .nav-logo {
+    width: 250px !important; }
+
 button {
   width: 209px;
   height: 36px;
