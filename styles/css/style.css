@@ -3169,7 +3169,7 @@ h1 {
   margin-bottom: 10px; }
 
   .nav-logo {
-    width: 250px !important; }
+    width: 300px !important; }
 
 button {
   width: 209px;
@@ -3361,7 +3361,7 @@ textarea {
   .layout-site-header.pull-cta-right .container .right-block {
     margin-left: auto; }
   .layout-site-header .brand-logo img {
-    width: 211px; }
+    width: 300px; }
   .layout-site-header .container {
     display: flex;
     justify-content: flex-start; }
